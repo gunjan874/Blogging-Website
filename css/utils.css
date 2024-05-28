@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+:root {
+    --main-bg-color: rgb(147, 83, 158);
+    --font1: 'Lobster', cursive;
+    --font2: 'Satisfy', cursive;
+}
+
+.font1{
+    font-family: var(--font1);
+}
+
+.font2{
+    font-family: var(--font2);
+}
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.margin_auto {
+    margin: auto;
+}
+
+.btn {
+    font-family: var(--font1);
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 0 21px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color:aliceblue;
+    background-color:darkslateblue;
+}
+
+.form-input {
+    padding: 5px 5px;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}
+
+.b1 {
+    padding-top: 20px;
+    font-family: var(--font1);
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 0 21px;
+    cursor: pointer;
+    transition: all 0.0s ease-in-out;
+    font-size: 17px;
+    background-color:lightgrey;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.b1:hover {
+    color:aliceblue;
+    background-color:darkslateblue;
+}
+
+.form-input1 {
+    padding: 5px 10px;
+    font-size: 18px;
+    
+    padding-bottom: 7px;
+
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 0 13px;
+    font-family: var(--font1);
+    background-color:white;
+    margin-top:17px;
+   
+   
+}
+
+.form-input1:hover{
+    color:black;
+    background-color:white;
+}

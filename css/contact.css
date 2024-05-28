@@ -1,0 +1,87 @@
+.contact {
+    
+    height: 100vh;
+   
+    display: flex;
+    justify-content: center;
+    /* background-color:azure; */
+    position: relative;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.contact::after {
+    content: " ";
+    background-image: url('../img/BB.jpg');
+    background-color:rgb(100, 191, 191);
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.2;
+    z-index:-1;
+
+}
+
+
+.contact-form{
+    padding-inline: 20px;
+    justify-content: center;
+    margin-left: 20px;
+    
+}
+
+.form-box{
+    margin-block: 20px;
+    display: inherit;
+    padding-top:10px;
+}
+
+.form-box input{
+   
+    width: 44vw;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color:black;
+    font-family: var(--font1);
+    font-size: 15px;
+    margin-top: 12px;
+    
+}
+
+.form-box textarea{
+    margin-top: 20px;
+    width: 44vw;
+    margin: 5px 0;
+    border-radius: 5px;
+    color:black;
+    font-family: var(--font1);
+    font-size: 15px;
+   
+
+}
+
+.INFO {
+    height: auto;
+    /* background-color: rgb(249, 229, 229,0.5); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 30px;
+  
+}
+
+.contact button{
+    font-size: 17px;
+    padding: 4px 17px;
+}
+
+.contact h2{
+
+
+justify-content: center;
+
+}
